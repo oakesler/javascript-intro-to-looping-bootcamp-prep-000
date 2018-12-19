@@ -20,6 +20,7 @@ function whileLoop(n) {
 }
 
 var newarray = [];
+var i = 0;
 
 function doWhileLoop(newarray) {
   function incrementVariable(i) {
