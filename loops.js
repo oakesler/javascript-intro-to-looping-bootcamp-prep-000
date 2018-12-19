@@ -22,8 +22,8 @@ function whileLoop(n) {
 var newarray = [];
 
 function doWhileLoop(newarray) {
-  function incrementVariable() {
-    i = i + 1;
+  function incrementVariable(i) {
+    i = i + 1; 
   }
   do {
     newarray.unshift(i)
