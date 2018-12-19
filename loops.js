@@ -25,6 +25,7 @@ function doWhileLoop(newarray) {
   function incrementVariable(i) {
     i = i + 1; 
   }
+  
   do {
     newarray.unshift(i)
   }
