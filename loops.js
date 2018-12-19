@@ -28,6 +28,7 @@ function doWhileLoop(newarray) {
   do {
     newarray.unshift(i)
   }
-    while (i > 0);
+    while (newarray.length > 0 && incrementVariable());
+    
   return array;
 }
